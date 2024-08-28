@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detalhes das Insignias</title>
+    <title>Detalhes da Insignia</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container mt-4">
-        <h1>Detalhes do Produto</h1>
+        <h1>Detalhes da Insignia</h1>
         <p><strong>ID:</strong> <%= product.id %></p>
         <p><strong>Nome:</strong> <%= product.name %></p>
         <p><strong>Preço:</strong> R$ <%= typeof product.price === 'number' ? product.price.toFixed(2) : 'N/A' %></p>
